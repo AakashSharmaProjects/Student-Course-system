@@ -5,7 +5,7 @@ var config = require('./config'),
 // Define the Mongoose configuration method
 
 
-const URL = 'mongodb+srv://newuser:adminuser@crud.xj5su.mongodb.net/assignment2?retryWrites=true&w=majority';
+const URL = 'Use your Mongo DB Connection String here';
 module.exports = function () {
     // Use Mongoose to connect to MongoDB
     const db = mongoose.connect(URL, {
